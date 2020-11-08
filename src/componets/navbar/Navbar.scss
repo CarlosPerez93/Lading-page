@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+.nabvar{
+    // border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    margin: 2%;
+    margin-top: 0;
+    font-family: 'Permanent marker', cursive;
+    &__logo{
+        width: 100px; 
+        height: 100px;
+    }
+    
+    &__menu{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+        &-main{
+            color: black;
+            background: transparent;
+        }
+
+    }
+}
+
+.ant-menu-horizontal{
+    border-bottom:0; 
+}
